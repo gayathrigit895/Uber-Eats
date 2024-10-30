@@ -386,3 +386,62 @@ body{
 .blank_f{
     height: 48px;
 }
+.cities h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: a;
+    margin: 0px;
+    color:rgb(0, 0, 0);
+    text-size-adjust: 100%;
+}
+.gr{
+    font-size: 16px;
+    color:rgb(0, 0, 0);
+    font-family: b;
+    font-weight: 400;
+    line-height: 24px;
+    text-size-adjust: 100%
+}
+.grid_chamber{
+    display: grid;
+    margin-top: 24px;
+    /* grid-template-columns: 140px 140px; */
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-columns: 140px 140px;
+    grid-auto-flow: column;
+    grid-template-rows: 24px 24px 24px 24px 24px 24px;
+    row-gap: 16px;
+    column-gap: 8px;
+    /* grid-template-rows: 24px 24px 24px 24px 24px 24px; */
+    /* row-gap: 16px; */
+    
+}
+/* .gap{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 16px;
+} */
+.gr_p{
+    font-size: 16px;
+    color:rgb(0, 0, 0);
+    font-family: c;
+    font-weight: 400;
+    line-height: 24px;
+    text-size-adjust: 100%;
+    text-decoration-line: underline;
+    text-wrap: nowrap;
+}
+.blank_g{
+    height: 48px;
+}
+.grid_chamber_2{
+    display: grid;
+    color:rgb(0, 0, 0);
+    column-gap: 8px;
+    row-gap: 24px;
+    grid-auto-flow: column;
+    grid-template-columns: 140px 140px;
+    grid-template-rows :48px 48px 48px 48px 48px 48px 48px 48px 48px 48px 48px 48px 48px 48px 48px;
+    margin-top: 24px;
+}
